@@ -1,0 +1,651 @@
+{
+  "version": "6.0",
+  "brand": "Cormach",
+  "price_usage": "excluded",
+  "source_priority": [
+    "csv_real_codes",
+    "pdf_details"
+  ],
+  "notes": "Catalogo v6 allineato ai codici reali del CSV caricato. Prezzi esclusi.",
+  "legend": {
+    "MI": "Motoinverter",
+    "2V": "Doppia velocità",
+    "P/NLS": "Bloccaggio pneumatico rapido",
+    "L": "Laser",
+    "VD": "Monitor LCD",
+    "Touch": "Touchscreen",
+    "LIFT/VDLL": "Con sollevatore ruota",
+    "GT": "Gonfiaggio integrato",
+    "Leverless": "Senza leva",
+    "Traditional": "Smontagomme tradizionale"
+  },
+  "equilibratrici_auto": [
+    {
+      "code": "01100392",
+      "model": "MEC 22 SONAR",
+      "csv_description": "MEC 22 SONAR",
+      "lock": "galletto_standard",
+      "monitor": "nessuno",
+      "details": [
+        "SONAR"
+      ],
+      "difference": "Versione base della famiglia MEC 22 con sonar"
+    },
+    {
+      "code": "01100393",
+      "model": "MEC 22L SONAR",
+      "csv_description": "MEC 22L SONAR (sonar + Laser)",
+      "lock": "galletto_standard",
+      "monitor": "nessuno",
+      "details": [
+        "SONAR",
+        "laser"
+      ],
+      "difference": "Come MEC 22 SONAR ma con laser"
+    },
+    {
+      "code": "01100381",
+      "model": "MEC 22L-P SONAR",
+      "csv_description": "MEC 22L-P SONAR (sonar + Laser + Pneumatica)",
+      "lock": "nls",
+      "monitor": "nessuno",
+      "details": [
+        "SONAR",
+        "laser",
+        "NLS pneumatico"
+      ],
+      "difference": "Come MEC 22L ma con bloccaggio pneumatico NLS"
+    },
+    {
+      "code": "01100367",
+      "model": "MEC 822 VDL SONAR",
+      "csv_description": "MEC 822 VDL SONAR",
+      "lock": "galletto_standard",
+      "monitor": "lcd",
+      "details": [
+        "monitor LCD",
+        "SONAR",
+        "laser"
+      ],
+      "difference": "Monitor LCD con sonar e laser"
+    },
+    {
+      "code": "01100368",
+      "model": "MEC 822 VDL-P SONAR",
+      "csv_description": "MEC 822 VDL-P SONAR (Sonar + Pneumatica + Laser)",
+      "lock": "nls",
+      "monitor": "lcd",
+      "details": [
+        "monitor LCD",
+        "SONAR",
+        "laser",
+        "NLS pneumatico"
+      ],
+      "difference": "Come 822 VDL ma con NLS pneumatico"
+    },
+    {
+      "code": "01100369",
+      "model": "MEC 822 VDLL SONAR",
+      "csv_description": "MEC 822 VDLL SONAR (Sonar + Laser + Sollevatore)",
+      "lock": "galletto_standard",
+      "monitor": "lcd",
+      "details": [
+        "monitor LCD",
+        "SONAR",
+        "laser",
+        "sollevatore ruota"
+      ],
+      "difference": "Come 822 VDL ma con sollevatore"
+    },
+    {
+      "code": "01100316",
+      "model": "MEC 822 VDLL-P SONAR",
+      "csv_description": "MEC 822 VDLL-P SONAR (Sonar + Laser + Pneumatica + Sollevatore",
+      "lock": "nls",
+      "monitor": "lcd",
+      "details": [
+        "monitor LCD",
+        "SONAR",
+        "laser",
+        "NLS pneumatico",
+        "sollevatore ruota"
+      ],
+      "difference": "Come 822 VDLL ma con NLS pneumatico"
+    },
+    {
+      "code": "01100216",
+      "model": "Touch MEC 1000 SONAR",
+      "csv_description": "TOUCH MEC 1000 SONAR CE 1ph 230V",
+      "lock": "galletto_standard",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR"
+      ],
+      "difference": "Touchscreen senza NLS"
+    },
+    {
+      "code": "01100218",
+      "model": "Touch MEC 1000-P SONAR",
+      "csv_description": "TOUCH MEC 1000-P SONAR CE 1ph 230V",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico"
+      ],
+      "difference": "Come Touch MEC 1000 ma con NLS pneumatico"
+    },
+    {
+      "code": "01100213",
+      "model": "Touch MEC 1000-P RLC SONAR",
+      "csv_description": "TOUCH MEC 1000-P RLC SONAR 1ph 230V",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico",
+        "RLC",
+        "motoinverter"
+      ],
+      "difference": "Top touch con RLC e NLS"
+    },
+    {
+      "code": "01100313",
+      "model": "Touch MEC 2000S SONAR",
+      "csv_description": "TOUCH MEC 2000S SONAR",
+      "lock": "galletto_standard",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "remote assist"
+      ],
+      "difference": "Touch top senza NLS"
+    },
+    {
+      "code": "01100394",
+      "model": "Touch MEC 2000S LIFT",
+      "csv_description": "TOUCH MEC 2000S LIFT (Sonar + Sollevatore)",
+      "lock": "galletto_standard",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "sollevatore ruota"
+      ],
+      "difference": "Come Touch MEC 2000S ma con sollevatore"
+    },
+    {
+      "code": "01100317",
+      "model": "Touch MEC 2000 SONAR -P",
+      "csv_description": "TOUCH MEC 2000 SONAR -P (Sonar + Pneumatica)",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico"
+      ],
+      "difference": "Touch MEC 2000 con NLS"
+    },
+    {
+      "code": "01100395",
+      "model": "Touch MEC 2000 SONAR -P LIFT",
+      "csv_description": "TOUCH MEC 2000 SONAR -P LIFT (Sonar + Pneumatica + Sollevatore)",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico",
+        "sollevatore ruota"
+      ],
+      "difference": "Come Touch MEC 2000-P ma con sollevatore"
+    },
+    {
+      "code": "01100370",
+      "model": "Touch MEC 2000 SONAR -P RLC PLUS",
+      "csv_description": "TOUCH MEC 2000 SONAR -P RLC PLUS (sonar + Pneumatica + RLC)",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico",
+        "RLC"
+      ],
+      "difference": "Touch MEC 2000-P con RLC"
+    },
+    {
+      "code": "01100396",
+      "model": "Touch MEC 2000S-P RLC LIFT",
+      "csv_description": "TOUCH MEC 2000S-P RLC LIFT (Sonar + Pneumatica + RLC + Sollevatore)",
+      "lock": "nls",
+      "monitor": "touch",
+      "details": [
+        "touchscreen",
+        "SONAR",
+        "NLS pneumatico",
+        "RLC",
+        "sollevatore ruota"
+      ],
+      "difference": "Top touch con NLS, RLC e sollevatore"
+    }
+  ],
+  "equilibratrici_truck": [
+    {
+      "code": "01200111",
+      "model": "MEC 200 TRUCK",
+      "csv_description": "MEC 200 TRUCK CE 1ph 230V",
+      "details": [
+        "base truck"
+      ],
+      "difference": "Versione base"
+    },
+    {
+      "code": "01200112",
+      "model": "MEC 200-C TRUCK",
+      "csv_description": "MEC 200-C TRUCK CE 1ph 230V",
+      "details": [
+        "protezione ruota"
+      ],
+      "difference": "Come MEC 200 TRUCK ma con protezione ruota"
+    },
+    {
+      "code": "01200115",
+      "model": "MEC 200A TRUCK",
+      "csv_description": "MEC 200A TRUCK CE 1ph 230V",
+      "details": [
+        "acquisizione automatica dati auto"
+      ],
+      "difference": "Come base ma con acquisizione automatica dati auto"
+    },
+    {
+      "code": "01200116",
+      "model": "MEC 200A-C TRUCK",
+      "csv_description": "MEC 200A-C TRUCK CE 1ph 230V",
+      "details": [
+        "acquisizione automatica dati auto",
+        "protezione ruota"
+      ],
+      "difference": "Come MEC 200A ma con protezione ruota"
+    },
+    {
+      "code": "01200119",
+      "model": "MEC 200A-C TRUCK RLC",
+      "csv_description": "MEC 200A-C TRUCK RLC CE 1ph 230V",
+      "details": [
+        "acquisizione automatica dati auto",
+        "protezione ruota",
+        "RLC"
+      ],
+      "difference": "Top truck con RLC"
+    }
+  ],
+  "smontagomme_auto": [
+    {
+      "code": "00100208",
+      "model": "PUMA",
+      "csv_description": "PUMA CE 1ph 230V 50-60Hz",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "runflat",
+        "ribassati"
+      ],
+      "difference": "Leverless fascia media"
+    },
+    {
+      "code": "00100210",
+      "model": "CM 1200BB MI",
+      "csv_description": "CM 1200BB CE 1ph 230V 50-60Hz MI",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "motoinverter",
+        "runflat",
+        "ribassati"
+      ],
+      "difference": "Come CM 1200BB ma con motoinverter"
+    },
+    {
+      "code": "00100301",
+      "model": "F 536S GT RACING MI",
+      "csv_description": "F 536S GT RACING CE 1ph 230V MI",
+      "type": "traditional_plus",
+      "details": [
+        "motoinverter",
+        "GT",
+        "fascia alta tradizionale"
+      ],
+      "difference": "Tradizionale superiore con GT e MI"
+    },
+    {
+      "code": "00100341",
+      "model": "F 536S GT RACING 2Vel",
+      "csv_description": "F 536S GT RACING CE 3ph 400V 2Vel",
+      "type": "traditional_plus",
+      "details": [
+        "doppia velocità",
+        "GT",
+        "3ph"
+      ],
+      "difference": "Come F536S GT ma in versione 2 velocità"
+    },
+    {
+      "code": "00100318",
+      "model": "F 535S 2 Vel",
+      "csv_description": "F 535S CE 3ph 400V 2 Vel",
+      "type": "traditional",
+      "details": [
+        "doppia velocità",
+        "tradizionale"
+      ],
+      "difference": "Tradizionale 2V"
+    },
+    {
+      "code": "00100319",
+      "model": "F 535S GT 2 Vel",
+      "csv_description": "F 535S GT CE 3ph 400V 2 Vel",
+      "type": "traditional",
+      "details": [
+        "doppia velocità",
+        "GT"
+      ],
+      "difference": "Come F535S 2V ma con GT"
+    },
+    {
+      "code": "00100330",
+      "model": "F 535S MI",
+      "csv_description": "F 535S CE 1ph 230V 50/60Hz MI",
+      "type": "traditional",
+      "details": [
+        "motoinverter",
+        "tradizionale"
+      ],
+      "difference": "Tradizionale con motoinverter"
+    },
+    {
+      "code": "00100331",
+      "model": "F 535S GT MI",
+      "csv_description": "F 535S GT CE 1ph 230V 50/60Hz MI",
+      "type": "traditional",
+      "details": [
+        "motoinverter",
+        "GT"
+      ],
+      "difference": "Come F535S MI ma con GT"
+    },
+    {
+      "code": "00100418",
+      "model": "F 535S MI LEVERLESS",
+      "csv_description": "F 535S MI LEVERLESS (Made in Italy)",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "motoinverter"
+      ],
+      "difference": "Versione leverless con MI"
+    },
+    {
+      "code": "00100417",
+      "model": "F 535S GT MI LEVERLESS",
+      "csv_description": "F 535S GT MI LEVERLESS (Made in Italy)",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "motoinverter",
+        "GT"
+      ],
+      "difference": "Come F535S MI leverless ma con GT"
+    },
+    {
+      "code": "00100419",
+      "model": "F 535S 2 VEL LEVERLESS",
+      "csv_description": "F 535S 2 VEL LEVERLESS",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "doppia velocità"
+      ],
+      "difference": "Versione leverless 2 velocità"
+    },
+    {
+      "code": "00100420",
+      "model": "F 535S GT 2 VEL LEVERLESS",
+      "csv_description": "F 535S GT 2 VEL LEVERLESS",
+      "type": "leverless",
+      "details": [
+        "leverless",
+        "doppia velocità",
+        "GT"
+      ],
+      "difference": "Come F535S 2V leverless ma con GT"
+    },
+    {
+      "code": "00100347",
+      "model": "LIGRO",
+      "csv_description": "LIGRO CE 1ph 230V 50/60Hz",
+      "type": "leverless_top",
+      "details": [
+        "leverless",
+        "premium"
+      ],
+      "difference": "Leverless premium"
+    },
+    {
+      "code": "00100348",
+      "model": "LIGRO GT",
+      "csv_description": "LIGRO GT CE 1ph 230V 50/60Hz",
+      "type": "leverless_top",
+      "details": [
+        "leverless",
+        "premium",
+        "GT"
+      ],
+      "difference": "Come LIGRO ma con GT"
+    }
+  ],
+  "smontagomme_truck": [
+    {
+      "code": "00201025",
+      "model": "FT 26SN",
+      "csv_description": "FT 26SN CE 3PH 400V",
+      "details": [
+        "entry level",
+        "fino a 26 pollici"
+      ],
+      "difference": "Entry truck fino a 26"
+    },
+    {
+      "code": "00201023",
+      "model": "FT 560SN",
+      "csv_description": "FT 560SN CE 3ph 400V",
+      "details": [
+        "fascia media",
+        "fino a 56 pollici con prolunghe"
+      ],
+      "difference": "Fascia media 56"
+    },
+    {
+      "code": "00200025",
+      "model": "CM SUPER 56N",
+      "csv_description": "CM SUPER 56N CE 3ph 400V",
+      "details": [
+        "fascia media",
+        "56 pollici"
+      ],
+      "difference": "Alternativa fascia media"
+    },
+    {
+      "code": "00200034",
+      "model": "SUPER VIGOR 2450N",
+      "csv_description": "SUPER VIGOR 2450N CE 3ph 400V",
+      "details": [
+        "professionale truck"
+      ],
+      "difference": "Professionale truck"
+    },
+    {
+      "code": "00200037",
+      "model": "SUPER VIGOR 60",
+      "csv_description": "SUPER VIGOR 60\" CE 3ph 400V",
+      "details": [
+        "professionale heavy duty",
+        "60 pollici"
+      ],
+      "difference": "Professionale heavy duty 60"
+    }
+  ],
+  "accessori_auto": [
+    {
+      "code": "21100345",
+      "name": "GHIERA D. 40X4 LINEA MEC",
+      "details": [
+        "bloccaggio rapido manuale"
+      ],
+      "difference": "Ghiera rapida"
+    },
+    {
+      "code": "21100349",
+      "name": "GHIERA D.40x4 CON POMOLO",
+      "details": [
+        "bloccaggio manuale con pomolo"
+      ],
+      "difference": "Alternativa manuale"
+    },
+    {
+      "code": "21100304",
+      "name": "CONO+DISTANZ.190-223 MEC",
+      "details": [
+        "per furgoni / commerciali"
+      ],
+      "difference": "Per Daily e veicoli commerciali"
+    },
+    {
+      "code": "21100044",
+      "name": "SET DI CONI VEICOLI COMMERCIALI Ø40",
+      "details": [
+        "coni 88-174 mm"
+      ],
+      "difference": "Per veicoli commerciali"
+    },
+    {
+      "code": "21100301",
+      "name": "FLANGIA UNIVERSALE A 3/4/5 FORI MEC",
+      "details": [
+        "multi-foro"
+      ],
+      "difference": "Per cerchi multi-foro"
+    },
+    {
+      "code": "21100034",
+      "name": "FLANGIA DI CENTRAGGIO MEC",
+      "details": [
+        "centraggio 98-140 mm"
+      ],
+      "difference": "Centraggio specifico"
+    },
+    {
+      "code": "21100357",
+      "name": "KIT DI 3 PROTEZIONI IN PLASTICA PER CAPPELLOTTO",
+      "details": [
+        "protezione cappellotto"
+      ],
+      "difference": "Protezione"
+    },
+    {
+      "code": "21100069",
+      "name": "CAPPELLOTTO E DISTANZIALE MEC",
+      "details": [
+        "cappellotto e distanziale"
+      ],
+      "difference": "Accessorio standard evoluto"
+    },
+    {
+      "code": "21100406",
+      "name": "CAPPELLOTTO E DISTANZIALE NLS",
+      "details": [
+        "per versioni NLS"
+      ],
+      "difference": "Specifico NLS"
+    }
+  ],
+  "accessori_truck": [
+    {
+      "code": "20100206",
+      "name": "ADATTATORI PER RUOTE IN ALLUMINIO. SET DI 4 PEZZI.",
+      "details": [
+        "cerchi in lega"
+      ],
+      "difference": "Per ruote in alluminio"
+    },
+    {
+      "code": "20100360",
+      "name": "SET 4 PROLUNGHE 56\" FT 560SN",
+      "details": [
+        "fino a 56 pollici"
+      ],
+      "difference": "Prolunghe 56"
+    },
+    {
+      "code": "20100364",
+      "name": "SET 5 INSERTI PLAST. SUPER VIGOR 60",
+      "details": [
+        "protezioni utensile"
+      ],
+      "difference": "Protezione utensile"
+    },
+    {
+      "code": "20100144",
+      "name": "ACCESSORIO CERCHI IN LEGA",
+      "details": [
+        "cerchi in lega"
+      ],
+      "difference": "Accessorio lega"
+    },
+    {
+      "code": "20100327",
+      "name": "KIT DISTANZIALI GRIFFE CM SUPER 56N",
+      "details": [
+        "griffe / adattatori"
+      ],
+      "difference": "Kit distanziali"
+    },
+    {
+      "code": "20100198",
+      "name": "PINZA PER CERCHI IN LEGA",
+      "details": [
+        "cerchi in lega"
+      ],
+      "difference": "Pinza lega"
+    },
+    {
+      "code": "20100141",
+      "name": "MORSETTI DI FISSAGGIO CERCHIETTI SET 2 PEZZI",
+      "details": [
+        "cerchietti"
+      ],
+      "difference": "Per cerchietti"
+    },
+    {
+      "code": "20100339",
+      "name": "PROLUNGHE 4 PUNTE SUPER VIGOR",
+      "details": [
+        "ruote con cerchietti"
+      ],
+      "difference": "Prolunghe 4 punte"
+    },
+    {
+      "code": "20100340",
+      "name": "KIT 4 GRIFFE FORI D.78 SUPER VIGOR",
+      "details": [
+        "fori Ø78"
+      ],
+      "difference": "Per fori Ø78"
+    }
+  ]
+}
